@@ -16,8 +16,8 @@ for nome in nomes:
     clientes.append(pessoa.copy())
 
 total_cliente = len(clientes)
-total_ativo = len([cliente.get('nome') for cliente in clientes if cliente.get('ativo')])
-total_inativo = len([cliente.get('nome') for cliente in clientes if not cliente.get('ativo')])
+total_ativo = len([cliente.get('nome') for cliente in clientes if cliente.get('ativo')])  # NOQA: E501
+total_inativo = len([cliente.get('nome') for cliente in clientes if not cliente.get('ativo')])  # NOQA: E501
 
 print('='*22)
 print('Relatórios de Clientes')
