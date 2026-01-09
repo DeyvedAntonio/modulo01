@@ -1,6 +1,5 @@
 from random import choice
 
-
 nomes = [
     "Ana", "Bruno", "Carla", "Daniel", "Eduardo",
     "Fernanda", "Gabriel", "Helena", "Igor", "Juliana",
@@ -19,10 +18,10 @@ total_cliente = len(clientes)
 total_ativo = len([cliente.get('nome') for cliente in clientes if cliente.get('ativo')])  # NOQA: E501
 total_inativo = len([cliente.get('nome') for cliente in clientes if not cliente.get('ativo')])  # NOQA: E501
 
-print('='*22)
+print('=' * 22)
 print('Relatórios de Clientes')
-print('='*22)
+print('=' * 22)
 print(f'Total de clientes é {total_cliente}')
 print(f'Total de clientes ativos é {total_ativo}')
 print(f'Total de clientes inativos é {total_inativo}')
-print('-'*22)
+print('-' * 22)

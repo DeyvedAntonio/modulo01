@@ -1,6 +1,5 @@
 from random import randint
 
-
 lista_idade = [randint(1, 90) for valor in range(500)]
 
 lista_menores = []

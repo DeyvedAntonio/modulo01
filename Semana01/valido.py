@@ -1,6 +1,5 @@
 from random import random
 
-
 lista = [valor * random() * 10 for valor in range(20)]
 lista_valido = []
 lista_invalido = []

@@ -1,7 +1,6 @@
 from random import random
 from statistics import mean
 
-
 valores_vendas = [random() * 100 for valor in range(15)]
 
 total_vendas = sum(valores_vendas)
